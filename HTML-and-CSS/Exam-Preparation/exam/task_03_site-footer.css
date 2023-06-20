@@ -1,0 +1,25 @@
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer ul,
+.site-footer ul {
+    display: flex;
+    margin: 1em 2em;
+}
+
+.site-footer li,
+.site-footer a {
+    display: block;
+    padding: 0 0.5em;
+}
+
+
+.site-footer a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+

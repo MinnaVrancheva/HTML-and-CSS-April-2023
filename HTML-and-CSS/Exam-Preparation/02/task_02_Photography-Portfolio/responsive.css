@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+
+    .navigation-nav,
+    .home-text,
+    .home-image-container {
+        display: none;
+    }
+
+    .section-container {
+        padding-top: 60px;
+    }
+
+    .home-tab-selector-cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .home-process {
+        padding-bottom: 30px;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .home-top-part {
+        flex-direction: column;
+        gap: 2em;
+    }
+}

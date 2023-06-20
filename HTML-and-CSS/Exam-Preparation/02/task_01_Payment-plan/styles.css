@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Inter, serif;
+}
+
+body {
+    background-image: url(image/background.jpg);
+    background-size: 100%;
+    background-position: 55% 45%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 0 30%;
+    max-width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1.5em;
+
+}
+
+.card.middle {
+    height: 520px;
+}
+
+.card header {
+    margin-bottom: 2em;
+}
+
+.card header h3 {
+    font-size: 20px;
+}
+
+.card .price-number {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.card .description {
+    font-weight: 300;
+    margin: 2em 0;
+    color: rgba(142, 139, 133, 1);
+}
+
+p .monthly {
+    color: rgba(142, 139, 133, 1);
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card li {
+    margin-bottom: 0.5em;
+}
+
+.card button {
+    margin-top: auto;
+    padding: 1em 2.5em;
+    align-self: flex-start;
+    border-radius: 0.3em;
+    background-color: black;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}

@@ -1,0 +1,272 @@
+.section-banner {
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(133, 220, 255, 1);
+}
+
+.section-banner .svgs {
+    display: block;
+    flex-shrink: 0;
+    margin-right: 2em;
+}
+
+.section-banner img {
+    display: block;
+    width: 100%;
+}
+
+.promo-member-desription {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    margin: 0 4em;
+}
+
+.promo-member-desription p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.promo-member-desription .buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.promo-member-desription .buttons a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.buttons .white,
+.buttons .black {
+    padding: 1px 45px;
+    border-radius: 5px;
+}
+
+.buttons .white {
+    background-color: #fff;
+    border-color: #000;
+    border: 1px solid black;
+}
+
+.buttons .black {
+    background-color: #000;
+}
+
+.buttons .white a {
+    color: #000;
+}
+
+.buttons .black a {
+    color: #fff;
+}
+
+[class*="section-"] header h3 {
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.section-description {
+    padding: 2em 4em;
+}
+
+.sub-title {
+    display: block;
+    margin: 1em auto;
+    padding: 1.5em 1em;
+    width: 60%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.section-cards-horizontal {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.section-cards-horizontal li {
+    flex: 1 1 30%;
+    text-align: center;
+    list-style-type: none;
+    text-align: center;
+}
+
+.section-cards-horizontal .svgs {
+    width: 4.5em;
+    margin: 0 auto;
+    fill: rgba(133, 220, 255, 1);
+}
+
+.section-cards-horizontal .title {
+    text-align: center;
+    margin: 1em auto;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.section-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em 4em;
+    margin-bottom: 1em;
+    background-color: rgba(133, 220, 255, 1);
+}
+
+.section-mission button {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 1em 5em;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.section-mission button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-mission header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.list-items ul {
+    flex: 0 0 50%;
+    display: block;
+    padding: 0 1.5em;
+}
+
+.list-items li {
+    list-style-type: none;
+}
+
+.section-animals {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-animals .section-images {
+    display: flex;
+}
+
+.section-animals header h3 {
+    font-size: 28px;
+}
+
+.section-animals .section-images img {
+    width: 10.5em;
+    margin: 0 auto;
+}
+
+.section-animals .sub-title {
+    padding: 0;
+}
+
+.section-how-we-work {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+.section-how-we-work header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.section-cards-vertical-list {
+    display: flex;
+
+}
+
+.section-cards-vertical-list ul {
+    width: 35em;
+    margin: 0 auto;
+}
+
+.section-cards-vertical-list li {
+    list-style-type: none;
+    font-size: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.section-cards-vertical p.title {
+    background-color: rgba(133, 220, 255, 1);
+    border-radius: 2px;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.section-cards-vertical p.description {
+    padding: 1em;
+    font-weight: 600;
+}
+
+.section-news {
+    display: flex;
+    gap: 2em;
+}
+
+.section-news img {
+    width: 25em;
+    margin: 0 auto;
+}
+
+.section-news .newsletter-subsription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.section-news .newsletter-subsription h3 {
+    font-size: 18px;
+}
+
+.section-news .newsletter-subsription .subsribe-description {
+    font-size: 10px;
+    width: 90%;
+}
+
+.section-news .newsletter-subsription p.email {
+    border: 1px solid #eee;
+    padding: 0.5em 10em 0.2em 0.5em;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.section-news .newsletter-subsription button {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 0.5em 3em;
+}
+
+.section-news .newsletter-subsription button a {
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: none;
+}

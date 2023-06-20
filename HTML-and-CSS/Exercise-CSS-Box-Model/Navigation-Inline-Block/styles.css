@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.main-nav{
+    margin-left: 10em;
+    display: inline-block;
+}
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav li {
+    display: inline-block;
+}
+.main-nav a {
+    text-decoration: none;
+    color: rgb(15, 174, 15);
+    padding: 0.5em 0.7em;
+}

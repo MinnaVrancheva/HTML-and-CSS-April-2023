@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        body {
+            margin: 1.5em;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif, serif;
+            border-bottom: 15px solid red;
+        }
+        section {
+            display: block;
+            margin-top: 4em;
+        }
+        hr {
+            border-top: 1px solid rgb(253, 56, 56);
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-width: 1px;
+        }
+        div {
+            display: flex;
+            height: 100%;
+            gap: 3em;
+            align-items: baseline;
+            row-gap: 10px;
+        }
+        .title {
+            justify-content: space-between;
+            margin: auto;
+            margin-bottom: 2em;
+            background-color: red;
+            color: white;
+            font-weight: normal;
+            padding: 0.2em;
+        }
+        .date {
+            background-color: white;
+            color: black;
+            margin: 0.5em;
+            padding: 0.2em;
+        }
+        .two-columns-layout {
+            justify-content: flex-start;
+            flex: 0 1 auto;
+        }
+        .four-columns-layout {
+            
+            flex: 0 1 auto;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <section>
+        <div class="title">
+            <h2>Sitecore360 Report</h2>
+            <p>Issue date:	<span class="date">7-Jun-23</span></p>
+        </div>
+        <div class="two-columns-layout">
+            <p>Package name:</p><p>«Package_name»</p>
+        </div>
+        <div class="four-columns-layout">
+            <p>1st Quarter start:	«Q1_start»</p>
+            <p>2nd Quarter start:	«Q3_start»</p>
+            <p>3rd Quarter start:	«Q2_start»</p>
+            <p>4th Quarter start:	«Q4_start»</p>
+        </div>
+    </section>
+    <section>
+        <h3>Professional Plus Training</h3>
+        <hr>
+        <div class="two-columns-layout">
+            <p style="color: red;">Seats included:</p><p>«Seats_included»</p>
+        </div>
+        <div class="two-columns-layout">
+            <p>Seats in use:</p><p>«Seats_used_»</p>
+        </div>
+    </section>
+    <section>
+        <h3>Expert Services</h3>
+        <hr>
+        <div class="two-columns-layout">
+            <p style="color: red;">Hours per quarter:</p><p>«HPQ»</p>
+        </div>
+        <div class="four-columns-layout">
+            <p>1st Quarter used: «Q1_hrs_used»</p>
+            <p>3rd Quarter used: «Q3_hrs_used»</p>
+            <p>2nd Quarter used: «Q2_hrs_used»</p>
+            <p>4th Quarter used: «Q4_hrs_used»</p>
+        </div>
+		
+    </section>
+    <section>
+        <h3>Premier Assure</h3>
+        <hr>
+        <div class="two-columns-layout">
+            <p style="color: red;">Points per quarter:</p><p>«PPQ»</p>
+        </div>
+        <div class="four-columns-layout">
+            <p>1st Quarter used: «Q1_pts_used»</p>
+            <p>3rd Quarter used: «Q3_pts_used»</p>
+            <p>1st Quarter allocated: «Q1_pts_allocated»</p>
+            <p>3rd Quarter allocated: «Q3_pts_allocated»</p>
+            
+        </div>
+        <div class="four-columns-layout">
+            <p>2nd Quarter used: «Q2_pts_used»</p>
+            <p>4th Quarter used: «Q4_pts_used»</p>
+            <p>2nd Quarter allocated: «Q2_pts_allocated»</p>
+            <p>4th Quarter allocated: «Q4_pts_allocated»</p>
+        </div>
+    </section>
+</body>
+</html>

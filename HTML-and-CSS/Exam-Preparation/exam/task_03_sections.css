@@ -1,0 +1,196 @@
+.figures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.figures-card {
+    text-align: center;
+    max-width: 250px;
+    padding: 1em 0.5em;
+    border-right: 1px solid lightgray;
+}
+
+.figures-card:first-child {
+    border-left: 1px solid lightgray;
+} 
+
+.highlights {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.finbest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.finbest img {
+    width: 80%;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+}
+
+.finbest-description {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 30%;
+}
+
+.finbest-description h2 {
+    margin-bottom: 1.5em;
+}
+
+.finbest-description p {
+    padding-bottom: 0.5em;
+}
+
+.finbest-description div {
+    margin-bottom: 1em;
+}
+
+.finbest-description a {
+    margin-top: 1em;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    background-color: rgba(243, 245, 250, 1);
+    min-height: 100px;
+}
+
+.pricing-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.pricing-plans-title {
+    background-color: rgba(173, 226, 223, 1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 2em auto;
+    font-weight: 600;
+}
+
+.plans {
+    display: flex;
+    margin-bottom: 2em;
+    min-height: 400px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+
+.plans-list {
+    display: flex;
+    background-color: #fff;
+}
+
+.plans-list-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 30%;
+    padding: 2em;
+}
+
+.plans-list-card h3 {
+    text-align: center;
+}
+
+.plans-list-card .highlights {
+    padding-bottom: 0;
+}
+
+.plans-list-card ul {
+    display: block;
+    border-top: 1px solid darkgray;
+}
+
+.plans-list-card li {
+    list-style-type: none;
+    padding: 3px;
+}
+
+.plans-list-card button {
+    margin: 0 auto;
+    background-color: rgba(173, 226, 223, 1);
+    padding: 1px 55px;
+    border-radius: 5px;
+    border: none;
+    min-height: 50px;
+}
+
+.upgrade {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 50%;
+    padding: 2em;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.upgrade-card p:first-child {
+    text-align: center;
+}
+
+.upgrade-card li {
+    list-style-type: none;
+    padding: 3px;
+}
+
+.upgrade-card button {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    padding: 1em 12em;
+}
+
+.getstarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 226, 223, 1);
+    min-height: 300px;
+}
+
+.getstarted div,
+.getstarted h1,
+.getstarted p {
+    max-width: 30%;
+    text-align: center;
+}
+
+.getstarted .buttons {
+    display: flex;
+}
+
+.getstarted .buttons button {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 1em 1em;
+    color: #fff;
+    border: none;
+}
+
+.getstarted .buttons button:first-child {
+    margin-right: 1em;
+}
+

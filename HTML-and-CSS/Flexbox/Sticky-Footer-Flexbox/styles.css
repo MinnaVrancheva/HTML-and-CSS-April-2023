@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: 12px/1.5 Helvetica, sans-serif;
+    flex-direction: column;
+    margin: 2em;
+}
+
+header {
+    border-bottom: 3px solid black;
+    font: 25px/1.5 Arial, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+main {
+    padding: 2em 0.5em;
+}
+
+main p {
+    &:not(:last-child) {
+        margin-bottom: 1.5em;
+    }
+    
+}
+
+main h2 {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    height: 40px;
+    padding: 10px;
+}

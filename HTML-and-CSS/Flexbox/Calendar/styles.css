@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 10px/1.5 Verdana, sans-serif;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+    align-items: stretch;
+    margin: 2em auto;
+}
+
+span {
+    display: block;
+    border: 1px solid black;
+    padding: 0.5em;
+    padding-bottom: 5em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.week {
+    flex-wrap: wrap;
+    
+}
+
+.week span {
+    display: block;
+    padding-top: 1.5rem;
+    flex-grow: 1;
+}
+
+.notes {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.notes span {
+    flex: 1 1 50%;
+    min-width:max-content;
+    padding-top: 0.2rem;
+    border-left: none;
+}
+
+ 
+.week span:nth-child(1),
+.week span:nth-child(7) {
+    flex-basis: 100%;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(2),
+.week span:nth-child(3),
+.week span:nth-child(4),
+.week span:nth-child(5),
+.week span:nth-child(6),
+.week span:nth-child(7),
+.notes span:nth-child(1) {
+    border-bottom: none;
+}
+
+.week span:nth-child(2),
+.week span:nth-child(3),
+.week span:nth-child(4),
+.week span:nth-child(5),
+.week span:nth-child(8) {
+    border-right: none;
+}

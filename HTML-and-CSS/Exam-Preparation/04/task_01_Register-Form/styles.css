@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 10px/1.5 'Mulish', sans-serif;
+}
+
+body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 53%;
+    height: 55%;
+    border-radius: 20px;
+    padding: 5%;
+    overflow: hidden;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1em;
+}
+
+.registration-form h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.names {
+    display: flex;
+    gap: 2em;
+}
+
+#own-name,
+#second-name {
+    width: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 0.3em;
+}
+
+#psw-repeat,
+#email,
+#psw {
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+.first-name,
+.family-name,
+.form-email,
+.form-pass,
+.form-confirm-pass {
+    display: flex;
+    flex-direction: column;
+}
+
+.registerbtn {
+    margin: 0 auto;
+    padding: 3% 6%;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #fff;
+    border: none;
+}

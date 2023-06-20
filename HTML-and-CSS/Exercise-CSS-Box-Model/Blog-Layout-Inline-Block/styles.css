@@ -1,0 +1,44 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+article {
+    display: block;
+    width: 60%;
+    text-align: left;
+    margin: 3rem;
+    font-size: 18px;
+}
+article ul {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+article li {
+    line-height: 1.5rem;
+}
+section {
+    margin-top: 50px;
+}
+img {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+aside {
+    text-align: right;
+    margin: 3rem;
+    font-size: 18px;
+}
+.aside-title {
+    text-align: left;
+}
+aside li {
+    text-align: left;
+    line-height: 1.5rem;
+}
+footer {
+    margin-top: 1.5rem;
+}

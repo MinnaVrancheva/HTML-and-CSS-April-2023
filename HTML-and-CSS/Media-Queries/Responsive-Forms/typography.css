@@ -1,0 +1,18 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    background-color: #eee;
+}
+
+legend {
+    background-color: #eee;
+    border: 1px solid black;
+    padding: 10px 75px 10px 10px;
+    margin: 0;
+}

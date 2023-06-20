@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            gap: 2em;
+            grid-template-columns: 1fr 2fr;
+            grid-template-areas: 
+                "header header"
+                "main main"
+                "aside aside"
+                "footer footer";
+        }
+
+        @media (width > 800px) {
+            body {
+                grid-template-areas: 
+                    "header header"
+                    "aside main"
+                    "footer footer";
+            }
+        }
+
+        body > * {
+            background: lightblue;
+            padding: 2em;
+        }
+
+        header {
+            grid-area: header;
+        }
+
+        main {
+            grid-area: main;
+        }
+
+        aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <p>Header</p>
+    </header>
+
+    <main>
+        <p>Main</p>
+    </main>
+
+    <aside>
+        <p>Aside</p>
+    </aside>
+
+    <footer>
+        <p>footer</p>
+    </footer>
+
+</body>
+</html>

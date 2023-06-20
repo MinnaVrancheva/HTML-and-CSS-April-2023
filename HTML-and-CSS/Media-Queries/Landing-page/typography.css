@@ -1,0 +1,108 @@
+.site-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.site-title-section nav {
+    display: block;
+}
+
+@media (max-width: 500px){
+
+    .site-title-section nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .site-title-section nav ul li{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.site-title-section nav ul li{
+    display: inline-block;
+    padding: 1em;
+}
+
+.site-title {
+    line-height: 1px;
+}
+
+@media (max-width: 500px) {
+
+    div.site-title {
+        line-height:normal;
+    }
+    
+}
+
+.site-title p:first-child {
+    font-size: 40px;
+    color: purple;
+    font-weight: 500;
+}
+
+.site-title p:last-child {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.need-a-website {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 5em;
+}
+
+.need-a-website .description {
+    width: 60%;
+    margin-right: 2em;
+    height: auto;
+}
+
+.need-a-website p:first-child {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.need-a-website p {
+    margin-bottom: 2em;
+}
+
+.need-a-website .button{
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.our-team div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.our-team .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-image {
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.card img {
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,32 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    background-color: #eee;
+    min-height: 100vh;
+    place-items: center;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    color: black;
+}

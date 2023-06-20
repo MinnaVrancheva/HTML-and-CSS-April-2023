@@ -1,0 +1,109 @@
+.section-banner {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.section-banner h2 {
+    font-size: 2.8em;
+    letter-spacing: 0.2em;
+}
+
+.section-banner p {
+    max-width: 28em;
+    line-height: 1.2;
+}
+
+.section-banner a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: rgba(208, 25, 25, 1);
+    color: #fff;
+    border-radius: 0.3em;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.section-welcome {
+    background-color: #fff;
+    min-height: 10em;
+}
+
+.section-coaches {
+    background-color: rgba(239, 239, 239, 1);
+}
+
+.section-welcome,
+.section-coaches { 
+    padding: 2em 4em;
+}
+
+[class*="section-"] header h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+[class*="section-"] header h2:after {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgba(208, 25, 25, 1);
+    margin: 1em auto;
+}
+
+.section-cards {
+    display: flex;
+    gap: 10em;
+}
+
+.section-cards img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section-welcome .section-cards img {
+    width: 2.8em;
+    margin: 0 auto;
+}
+
+.section-coaches img {
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+.section-cards li,
+.section-cards li span {
+    display: block;
+}
+
+.section-cards li {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.section-cards .title {
+    color: rgba(211, 51, 50, 1);
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+.section-cards .description {
+    color: #333;
+    line-height: 1.2;
+}
+
+.section-cards .name {
+    font-weight: bold;
+}
+
+.section-coaches .description {
+    color: #999;
+}

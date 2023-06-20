@@ -1,0 +1,26 @@
+.top-ribbon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-ribbon p {
+    padding-left: 3em;
+}
+
+.top-ribbon a {
+    display: block;
+}
+
+.top-ribbon li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+.top-ribbon a {
+    text-decoration: none;
+    color: #000;
+}

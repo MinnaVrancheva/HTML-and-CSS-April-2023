@@ -1,0 +1,15 @@
+.site {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(../image/image.jpg);
+    background-size: cover;
+    background-position: center -45em;
+    background-repeat: no-repeat;
+}
+
+.site-footer {
+    margin-top: 0;
+}

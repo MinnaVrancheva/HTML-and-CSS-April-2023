@@ -1,0 +1,141 @@
+.top-ribbon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+}
+
+.top-ribbon img {
+    width: 10em;
+    
+}
+
+.top-ribbon ul {
+    display: block;
+}
+
+.top-ribbon li {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.main-header {
+    position: relative;
+    min-height: 300px;
+    background-color: rgba(84, 84, 109, 1);
+}
+
+.main-header:before {
+    background: url(../images/calculator-icon.svg);
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    left: -76px;
+    bottom: 50px;
+    content: '';
+}
+
+.main-header h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 2em;
+    font-weight: normal;
+}
+
+.cards-list {
+    max-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin: 0 5em;
+    top: 200px;
+    gap: 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 350px;
+    flex: 0 1 30%;
+    margin: 0 auto;
+    
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.card .card-main-section .button {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3em;
+    border-radius: 5em;
+    background-color: rgba(154, 93, 198, 1);
+    padding: 5px;
+}
+
+.card .card-main-section .button a {
+    
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.card h3 {
+    margin-top: 1.5em;
+    opacity: 0.6;
+}
+
+.card-sub-title {
+    padding: 0 1em;
+    opacity: 0.8;
+}
+
+.card h3,
+.card-sub-title {
+    text-align: center;
+}
+
+.card-footer-section,
+.card-footer-section1,
+.card-footer-section2 {
+    padding: 0 1em;
+    padding-bottom: 0.5em;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.card-footer-section {
+    
+    background-color: rgba(14, 164, 72, 1);
+}
+
+.card-footer-section1,
+.card-footer-section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer-section1 {
+    background-color: rgba(77, 109, 139, 1);
+}
+
+.card-footer-section2 {
+    background-color: rgba(78, 59, 168, 1);
+}
+
+.card-footer-section1 div,
+.card-footer-section2 div {
+    flex: 1 0 50%;
+}
+
+.card-footer-title {
+    text-align: center;
+}
+
+
+
+    
